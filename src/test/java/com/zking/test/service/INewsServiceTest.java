@@ -25,6 +25,7 @@ public class INewsServiceTest extends BaseTestCase {
 
     @Test
     public void loadCasecode() throws Exception {
+        System.out.println("你好");
         news.setNewsId(5);
         News news1 = newsService.loadCasecode(news);
         System.out.println(news1);
